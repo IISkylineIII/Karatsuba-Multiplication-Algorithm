@@ -5,7 +5,7 @@
 This Python script implements the Karatsuba multiplication algorithm, an efficient method for multiplying large numbers. The algorithm works by recursively splitting the numbers into smaller parts, performing multiplications on them, and combining the results. It reduces the complexity of multiplication from O(n2)O(n2) to O(nlog⁡23)O(nlog2​3), making it much faster for large numbers compared to traditional multiplication methods.
 
 # Usage
-Example
+# Example
 ```
 def karatsuba(x, y):
     # Base case: single-digit multiplication
@@ -43,7 +43,7 @@ print(result)
 
 ```
 
-Output
+# Output
 
 8539652321666725323973357046576183724801908225319472645116508051551424545322670232461593655038415456722186322481170720289173184
 
